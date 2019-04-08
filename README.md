@@ -19,7 +19,7 @@ docker build --tag=centos-nodejs:lts ./lts
 ```
 
 ### Usage
-You can use this image as a base for other Docker images, by using `FROM: adevur/centos-nodejs:latest` in your Dockerfile.
+You can use this image as a base for other Docker images, by using `FROM adevur/centos-nodejs:latest` in your Dockerfile.
 
 Otherwise, you can also use this image as stand-alone. For example, if you run:
 ```sh
