@@ -4,10 +4,9 @@ FROM centos:7
 
 MAINTAINER adevur (madavurro@protonmail.com)
 
-RUN yum clean all -y \
+RUN (curl -sL https://rpm.nodesource.com/setup_11.x | bash -) \
+  && yum clean all -y \
   && yum update -y \
-  && yum install -y curl \
-  && (curl -sL https://rpm.nodesource.com/setup_11.x | bash -) \
   && yum install -y nodejs \
   && yum autoremove -y \
   && yum clean all -y \
