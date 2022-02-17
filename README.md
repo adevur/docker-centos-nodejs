@@ -1,12 +1,12 @@
 # centos-nodejs
-This image provides a minimal CentOS 7 image with Node.js and NPM installed.
+This image provides a minimal CentOS 8 Stream image with Node.js and NPM installed.
 
 ### Tags
 This image has two tags: `latest` and `lts`.
 
-`centos-nodejs:latest`: based on current latest stable release of Node.js (12.x.x).
+`centos-nodejs:latest`: based on current latest stable release of Node.js (16.x.x).
 
-`centos-nodejs:lts`: based on current LTS release of Node.js (10.x.x).
+`centos-nodejs:lts`: based on current LTS release of Node.js (17.x.x).
 
 ### Building
 To build `latest` tag:
