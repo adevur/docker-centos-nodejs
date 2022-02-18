@@ -25,7 +25,7 @@ Otherwise, you can also use this image as stand-alone. For example, if you run:
 ```sh
 docker run --rm --name nodejs -it adevur/centos-nodejs:lts /bin/bash
 ```
-You'll have a bash terminal opened in a container with CentOS 7, Node.js 10.x.x LTS and latest NPM version.
+You'll have a bash terminal opened in a container with CentOS Stream 8, Node.js 16.x.x LTS and latest NPM version.
 
 ### Additional info
 Node.js and NPM have been installed using the procedure described at: [NodeSource Node.js Binary Distributions](https://github.com/nodesource/distributions#rpm)
