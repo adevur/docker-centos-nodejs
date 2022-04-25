@@ -4,18 +4,18 @@ This image provides a minimal CentOS Stream 8 image with Node.js and NPM install
 ### Tags
 This image has two tags: `latest` and `lts`.
 
-`centos-nodejs:latest`: based on current latest stable release of Node.js (17.x.x).
+`centos-nodejs:latest`: based on current latest stable release of Node.js (18.x.x).
 
 `centos-nodejs:lts`: based on current LTS release of Node.js (16.x.x).
 
 ### Building
 To build `latest` tag:
 ```sh
-docker build --tag=centos-nodejs:latest ./latest
+docker build --tag centos-nodejs:latest ./latest
 ```
 To build `lts` tag:
 ```sh
-docker build --tag=centos-nodejs:lts ./lts
+docker build --tag centos-nodejs:lts ./lts
 ```
 
 ### Usage
